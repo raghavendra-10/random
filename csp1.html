@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    .one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(63, 13, 13);
+}
+.a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    font-family: "Comic Sans MS";
+}
+.text{
+    font-size: 50px;
+    color: white;
+}
+#input{
+    height: 30px;
+    width:400px;
+}
+#b{
+    font-size: 23px;
+    width:150px;
+    height: 35px;
+}
+#num{
+    color:aquamarine;
+}
+#h{
+    position: absolute;
+    top:-1250%;
+    left:-20%;
+    font-size: 80px;
+    font-family: "MV Boli";
+}
+#bio1{
+    position: absolute;
+    top:-1200%;
+    left:50%;
+    font-size: 50px;
+    font-family: "Segoe Print";
+
+}
+#b1{
+    font-size: 30px;
+    background-color: red;
+    color: black;
+    border-radius: 20px;
+    position: absolute;
+    left:-15%;
+    bottom: 50%;
+}
+#b2{
+  background-color:red;
+  color: white;
+  position: absolute;
+  right:85.5%;
+  bottom:581%;
+  width:180px;
+  font-size: 26px;
+  border-radius: 20px;
+}
+#s{
+  text-align:center;
+}
+#searchInput{
+  width: 20em;
+  height:2em;
+  border:4px double black;
+  }
+#search-button{
+  background-color: transparent;
+  cursor: pointer;
+  border:4px ridge black;
+  border-radius:100%; 
+  
+}
+
+</style>
+<body>
+    <div>
+        <div class="one">
+                <img src="https://img.freepik.com/premium-vector/restaurant-logo-design-template_79169-56.jpg?w=2000" width="7%" height="7%">
+                <a class="a" href="csp1.html">HOME</a>
+                <a class="a" href="csp2.html">MENU</a>
+                <a class="a" href="#">ABOUT</a>
+                <a class="a" href="https://www.google.com/maps/place/Shri+Vishnu+Engineering+College+Autonomous/@16.568119,81.5195231,17z/data=!3m1!4b1!4m6!3m5!1s0x3a37cd4eb220051d:0xea3d7b50d0a1458!8m2!3d16.568119!4d81.522098!16s%2Fg%2F1w4540xm?entry=ttu">LOCATIONS</a>
+                <a class="a" href="csp3.html">LOGIN</a>
+        </div>
+       
+        <input type="text" id="searchInput" placeholder="Search for recipes...">
+    
+<button onclick="search()">search</button>
+<div id="search" ></div>
+    <script src="search.js"></script>
+    </div>
+   
+</body>
+</html>
